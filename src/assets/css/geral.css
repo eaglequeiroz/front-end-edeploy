@@ -1,0 +1,291 @@
+.tudo {
+    top: 0;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: absolute;
+}
+
+.tudo * {
+    font-size: 16px;
+    font-family: 'Roboto-Black', sans-serif;
+}
+
+.menuBar a {
+    color: unset;
+    text-decoration: none;
+}
+
+.infoBar {
+    box-shadow: none !important;
+    border-bottom: 1px solid #ddd !important;
+}
+
+.infoBar > div:nth-child(1) {
+    padding-bottom: 0 !important;
+}
+
+.infoCard {
+    background: #D98644;
+    padding: 8px 16px 6px 8px !important;
+}
+
+.infoCard img {
+    width: 46px !important;
+    height: 46px !important;
+    margin-right: 10px !important;
+}
+
+.infoCard div {
+    padding: 5px 0 0 !important;
+}
+
+.infoCard span:nth-child(1) {
+    font-weight: 600;
+}
+
+.infoDesc ul {
+    margin: 0;
+    padding: 0;
+}
+
+.infoDesc ul li, .topicos ul li {
+    list-style-type: none;
+}
+
+.infoDesc ul li span {
+    width: 60px;
+    font-size: 0.75em;
+    font-weight: 600;
+    text-align: right;
+    padding-right: 6px;
+    display: inline-block;
+}
+
+.iconMenu {
+    top: 2px;
+    left: 6px;
+    margin: 10px;
+    position: absolute;
+    text-align: center;
+    font-size: 2em !important;
+}
+
+.topo {
+    width: 100%;
+    height: 64px;
+    box-sizing: border-box;
+}
+
+.topo *, .rodape * {
+    color: #FFFFFF;
+}
+
+.topo > div {
+    height: 64px;
+    z-index: 100px;
+}
+
+.topo > div > div:nth-child(1) {
+    margin-right: 3px !important;
+}
+
+.topo > div > div:nth-child(3) {
+    height: 100%;
+    margin: 0 0 0 -4px !important;
+}
+
+.appIcon {
+    padding-top: 6px;
+    padding-left: 8px;
+    display: inline-flex;
+}
+
+.appIcon img {
+    width: 42px;
+    height: 42px;
+}
+
+.menuLateralDireito {
+    margin-top: 8px;
+}
+
+.menuLateralDireito > div {
+    float: left;
+}
+
+.menuLateralDireito .balao {
+    margin-top: 12px;
+}
+
+.menuLateralDireito > .balao > span {
+    border-radius: 25% !important;
+}
+
+.notificacao *, .menuBar * {
+    font-size: 0.95em;
+}
+
+.notificacao > div {
+    line-height: 45px;
+}
+
+.notificacao > div > div {
+    padding: 0 0 0 50px !important;
+}
+
+.tituloAplicacao {
+    font-size: 1.3em;
+}
+
+.conteudo {
+    top: 0;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    box-sizing: border-box;
+    padding: 64px 0 30px 12px;
+}
+
+.conteudo > form {
+    padding: 20px;
+    overflow: auto;
+    display: block;
+    max-height: 100%;
+    box-sizing: border-box;
+}
+
+.conteudo .campos {
+    width: 75%;
+}
+
+.conteudo .campos .linha {
+    margin-left: 6px;
+}
+
+.conteudo > form > *:nth-last-child(1) {
+    margin-bottom: 40px;
+}
+
+.titulo {
+    font-size: 2em;
+}
+
+.subtitulo {
+    font-size: 1.5em;
+    margin: 30px 0 -10px 4px;
+}
+
+.bread {
+    font-size: 0.8em;
+    font-style: italic;
+    margin-bottom: 16px;
+    margin: 6px 0 30px 4px;
+}
+
+.bread i {
+    margin: 0 6px;
+    font-size: 1.2em;
+}
+
+.bread a {
+    text-decoration: none;
+}
+
+.campo {
+    margin-top: -10px !important;
+}
+
+.campo label {
+    font-weight: 600;
+    font-size: 1.1em;
+}
+
+.campo label::after {
+    content: ':';
+}
+
+.data {
+    margin-right: 40px;
+    display: inline-block;
+}
+
+#dadospessoais .data > div {
+    top: 8px;
+}
+
+.data > div {
+    width: 140px !important;
+}
+
+.inputSelect {
+    margin-right: 40px;
+}
+
+.seletor {
+    bottom: -10px;
+    width: 200px !important;
+    display: inline-block !important;
+}
+
+.botao {
+    margin: 14px 4px 10px 4px;
+}
+
+.botao span {
+    text-transform: capitalize;
+}
+
+.conteudo .topicos {
+    top: 80px;
+    right: 10px;
+    width: 300px;
+    position: absolute;
+}
+
+.conteudo .topicos a {
+    color: #777;
+    display: block;
+    padding: 0.5em 1em;
+    text-decoration: none;
+}
+
+.rodape {
+    bottom: 0;
+    width: 100%;
+    height: 30px;
+    position: absolute;
+}
+
+.rodape * {
+    font-weight: bold;
+    font-size: 1em !important;
+}
+
+.rodape .infoCadastro {
+    width: 40%;
+    float: left;
+    height: 30px;
+    line-height: 30px;
+    padding-left: 280px;
+}
+
+.rodape .infoCadastro p {
+    margin: 0 0 0 10px;
+}
+
+.rodape .infoCadastro p span {
+    font-weight: 400px;
+}
+
+.rodape .infoSistema {
+    line-height: 30px;
+    text-align: center;
+}
+
+.rodape .infoSistema p {
+    margin: 0 10px 0;
+}
